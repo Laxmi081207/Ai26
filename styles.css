@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+nav {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+}
+
+.section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    width: 50%;
+   
+}
+
+.card {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+/* Updated Report Display: Smaller, more attractive for 1st-year students */
+#reportDisplay {
+    background: white; /* White background */
+    padding: 10px; /* Smaller padding */
+    border-radius: 8px; /* Rounded corners */
+    border: 2px solid #ddd; /* Subtle border */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Light shadow */
+    max-width: 600px; /* Smaller width */
+    margin: 0 auto; /* Centered */
+    font-size: 16px; /* Larger font for readability */
+    line-height: 1.5; /* Better spacing */
+    max-height: 300px; /* Max height with scroll */
+    overflow-y: auto; /* Scroll if long */
+    color: #333; /* Dark text for contrast */
+    /* width: 50%; */
+}
+
+.warning {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.good {
+    color: #28a745;
+}
+
+.average {
+    color: #ffc107;
+}
